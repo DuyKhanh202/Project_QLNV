@@ -231,7 +231,7 @@ function isEmail(value) {
 
 // hàm kiểm tra lương
 function checkBasicSalary(salary) {
-  var regex = /^\d+$/; // Biểu thức chính quy kiểm tra chuỗi là một số hoàn toàn
+  var regex = /^\d+$/; 
   if (regex.test(salary)) {
     if (salary < 1000000 || salary > 20000000) {
       return false;
@@ -245,7 +245,7 @@ function checkBasicSalary(salary) {
 
 // hàm kiểm giờ làm
 function checkTimeWork(timework) {
-  var regex = /^\d+$/; // Biểu thức chính quy kiểm tra chuỗi là một số hoàn toàn
+  var regex = /^\d+$/; 
   if (regex.test(timework)) {
     if (timework < 80 || timework > 200) {
       return false;
